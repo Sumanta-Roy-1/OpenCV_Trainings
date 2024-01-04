@@ -1,10 +1,10 @@
 import cv2 as cv
 
-img = cv.imread('Photos\Bike.jpg')
+img = cv.imread('Photos\Car.jpg')
 
 # cv.imshow('BIKE', img)
 
-def rescaleFrame(frame, scale=0.5):
+def rescaleFrame(frame, scale=0.2):
     width = int(frame.shape[1] * scale)
     height = int(frame.shape[0] * scale)
 
