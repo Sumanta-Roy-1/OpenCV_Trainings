@@ -27,6 +27,7 @@ print("Height: ", image.height)
  
 
 
+
 # Converting image from JPG to PNG format
 image.save("Converted\converted-png-image.png")
 print("Image successfully converted!")
